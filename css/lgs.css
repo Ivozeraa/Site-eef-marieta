@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(to right, #ff000076, #00ff004c);
+  background: linear-gradient(to right, #0400ff76, #00ff004c);
   display: flex;
   justify-content: center;
   align-items: center;
