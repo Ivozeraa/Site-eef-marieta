@@ -43,11 +43,20 @@ body a, body a:hover {
     color: #a71d2a;
 }
 
+.unidade-cursos {
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #3947b0;
+  margin-right: 25%;
+  margin-left: 25%;
+  box-shadow: 10px 15px grey;
+  border-radius: 1%;
+}
+
 .unidade-introducao {
     text-align: center;
-    margin-right: 15%;
-    margin-left: 15%;
-    border-radius: 0.5%;
+    border-radius: 1%;
 }
 
 * {
@@ -279,172 +288,166 @@ html, body {
 
 .site-footer__nav-list {
     text-align: center;
-}
-
-.site-footer__menu-heading {
+  }
+  
+  .site-footer__menu-heading {
     color: #f3f4f4;
-    font-family: 'GT America Standard Bold';
     font-weight: 700;
     font-size: 18px;
     line-height: 1.5;
     padding-bottom: 16px;
     text-align: center;
-}
-
-.footer-one__item,
-.footer-two__item,
-.footer-three__item {
-    font-family: 'GT America Standard Regular';
+  }
+  
+  .footer-one__item,
+  .footer-two__item,
+  .footer-three__item {
     font-size: 16px;
     line-height: 1.5;
     font-style: normal;
     font-weight: normal;
-
-	font-size: 18px;
+    font-size: 18px;
     margin-bottom: 8px;
-}
-
-.footer-one__action,
-.footer-two__action,
-.footer-three__action {
+  }
+  
+  .footer-one__action,
+  .footer-two__action,
+  .footer-three__action {
     border-bottom: 1px solid transparent;
     color: #8996a0;
     padding-bottom: 2px;
-}
-
-.footer-one__action:hover, .footer-two__action:hover, .footer-three__action:hover {
-        border-color: #f3f4f4;
-        color: #f3f4f4;
-    }
-
-.site-footer__copyright,
-.site-footer__copyright--below-logo {
-    font-family: 'GT America Standard Regular';
+  }
+  
+  .footer-one__action:hover,
+  .footer-two__action:hover,
+  .footer-three__action:hover {
+    border-color: #f3f4f4;
+    color: #f3f4f4;
+  }
+  
+  .site-footer__copyright,
+  .site-footer__copyright--below-logo {
     font-size: 16px;
     line-height: 1.5;
     font-style: normal;
     font-weight: normal;
-    font-family: 'GT America Standard Regular';
     font-size: 14px;
     font-style: normal;
     font-weight: normal;
     letter-spacing: -0.2px;
     line-height: 1.5;
-
     align-items: center;
-    display: flex;
     font-size: 14px;
     justify-content: center;
     order: 3;
-}
-
-@media (min-width: 960px) {
-
-.site-footer__copyright,
-.site-footer__copyright--below-logo {
-        font-size: 16px;
-        justify-content: flex-start;
-        width: 33.33%;
-        order: 1
-}
+    color: white;
+  }
+  
+  @media (min-width: 960px) {
+  
+    .site-footer__copyright,
+    .site-footer__copyright--below-logo {
+      font-size: 16px;
+      justify-content: flex-start;
+      width: 33.33%;
+      order: 1;
     }
-
-.site-footer__copyright p, .site-footer__copyright--below-logo p {
-        color: #8996a0;
-    }
-
-.site-footer__copyright a, .site-footer__copyright--below-logo a {
-        border-bottom: 1px solid #8996a0;
-        color: #8996a0;
-        padding-bottom: 2px;
-    }
-
-.site-footer__copyright a:hover, .site-footer__copyright--below-logo a:hover {
-            border-color: #f3f4f4;
-            color: #f3f4f4;
-        }
-
-.site-footer__logo {
-	align-items: center;
+  }
+  
+  .site-footer__copyright p,
+  .site-footer__copyright--below-logo p {
+    color: #8996a0;
+  }
+  
+  .copy {
+    color: white;
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  .copy:hover {
+    transform: scale(1.1);
+    color: #ff9900;
+    /* Cor mais vibrante */
+    transition: transform 0.3s, color 0.3s, filter 0.3s;
+    /* Adicionando transição para o filtro */
+    filter: brightness(0);
+    /* Torna o texto preto durante a transição */
+  }
+  
+  .site-footer__copyright a,
+  .site-footer__copyright--below-logo a {
+    border-bottom: 1px solid #8996a0;
+    color: #8996a0;
+    padding-bottom: 2px;
+  }
+  
+  .site-footer__copyright a:hover,
+  .site-footer__copyright--below-logo a:hover {
+    border-color: #f3f4f4;
+    color: #f3f4f4;
+  }
+  
+  
+  .site-footer__logo {
+    align-items: center;
     display: flex;
-	flex-direction: column;
+    flex-direction: column;
     justify-content: center;
     margin-bottom: 40px;
     order: 1;
-}
-
-@media (min-width: 960px) {
-
-.site-footer__logo {
-        margin-bottom: 0;
-        width: 33.33%
-}
+  }
+  
+  @media (min-width: 960px) {
+    .site-footer__logo {
+      margin-bottom: 0;
+      width: 33.33%;
     }
-
-.site-footer__logo img {
-        max-width: 200px;
+  }
+  
+  .site-footer__logo img {
+    max-width: 200px;
+  }
+  
+  .site-footer__logo.no-social {
+    margin-bottom: 0;
+    margin-top: 40px;
+  }
+  
+  @media (min-width: 960px) {
+    .site-footer__logo.no-social {
+      margin-top: 0;
     }
-
-.site-footer__logo.no-social {
-		margin-bottom: 0;
-		margin-top: 40px;
-	}
-
-@media (min-width: 960px) {
-
-.site-footer__logo.no-social {
-			margin-top: 0
-	}
-		}
-
-.site-footer__social {
+  }
+  
+  .site-footer__social {
     align-items: center;
     display: flex;
     justify-content: center;
     padding-bottom: 24px;
     padding-top: 40px;
     order: 2;
-}
-
-@media (min-width: 960px) {
-
-.site-footer__social {
-        justify-content: flex-end;
-        order: 3;
-        padding-bottom: 0;
-        padding-top: 0;
-        width: 33.33%
-}
+  }
+  
+  @media (min-width: 960px) {
+    .site-footer__social {
+      justify-content: flex-end;
+      order: 3;
+      padding-bottom: 0;
+      padding-top: 0;
+      width: 33.33%;
     }
-
-.site-footer__social.empty {
-		padding: 0;
-	}
-
-.site-footer__copyright--below-logo {
-	margin-top: 16px;
-}
-
-@media (min-width: 960px) {
-
-.site-footer__copyright--below-logo {
-		width: auto
-}
-	}
-    
-@media screen and (max-width: 750px) and (min-width: 0px) {
-    .c-item {
-        height: 75dvi;
-    }
-}
-
-@media screen and (max-width: 1500px) and (min-width: 800px) {
-    .c-item {
-        height: 45dvi;
-    }
-}
-@media screen and (max-width: 1600px) and (min-width: 1600px) {
-    .c-item {
-      height: 42dvi;
+  }
+  
+  .site-footer__social.empty {
+    padding: 0;
+  }
+  
+  .site-footer__copyright--below-logo {
+    margin-top: 16px;
+  }
+  
+  @media (min-width: 960px) {
+    .site-footer__copyright--below-logo {
+      width: auto;
     }
   }
