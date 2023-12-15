@@ -5,391 +5,63 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>EEF Marieta Cals</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet" alt="versão (5.2.3)">
-  <link rel="stylesheet" href="css/styleforindex.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.cdnfonts.com/css/neue-helvetica-bq" rel="stylesheet">
   <link rel="icon" type="image" sizes="50x50" href="img/nav/logotipo-eef.svg">
-  <link rel="stylesheet" href="css/aos.css"/>
+  <link href="count.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
-  <script src="js/bootstrap.bundle.min.js" alt="versão (5.2.3)"></script>
-  <!--inicio da navbar-->
-  <nav class="navbar navbar-expand-lg slide-down">
-    <a class="navbar-brand" href="index.html">
-      <div class="container">
-        <img src="img/nav/logotipo-eef.svg" alt="Bootstrap" width="128" height="90" title="Marieta Cals">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Escola
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="">Grêmio Estudantil</a></li>
-            <li><a class="dropdown-item" href="amb.html">Ambientes Escolar</a></li>
-            <li><a class="dropdown-item" href="">Professores</a></li>
-            <li><a class="dropdown-item" href="historico.html">História</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Eletivas
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="">Handbol</a></li>
-            <li><a class="dropdown-item" href="volei.html">Voleibol</a></li>
-            <li><a class="dropdown-item" href="">Música</a></li>
-            <li><a class="dropdown-item" href="">Residuos Solidos</a></li>
-            <li><a class="dropdown-item" href="">Cultura Maker</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Eventos
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="">7º Ano</a></li>
-            <li><a class="dropdown-item" href="">8º Ano</a></li>
-            <li><a class="dropdown-item" href="">9º Ano</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Aluno
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="">Manual do Aluno</a></li>
-            <li><a class="dropdown-item" href="">Regras</a></li>
-            <li><a class="dropdown-item" href="">Normas de Convivência</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="faq.html">FAQ</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contato</a>
-        </li>
-      </ul>
-      <div class="ml">
-        <a href="https://www.milagres.ce.gov.br/" class="pull-right" target="_blank"><img width="100"
-            height="50" src="img/nav/milas-logo.png"
-            class="custom-logo jetpack-lazy-image jetpack-lazy-image--handled" alt="Milagres logo" decoding="async"
-            data-lazy-loaded="1" loading="eager" title="Milagres logo"></a>
-      </div>
-      <div class="spacel"></div>
-      <label class="theme-switch">
-        <input type="checkbox" class="theme-switch__checkbox" id="suninmoon">
-        <div class="theme-switch__container">
-          <div class="theme-switch__clouds"></div>
-          <div class="theme-switch__stars-container">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 55" fill="none">
-              <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M135.831 3.00688C135.055 3.85027 134.111 4.29946 133 4.35447C134.111 4.40947 135.055 4.85867 135.831 5.71123C136.607 6.55462 136.996 7.56303 136.996 8.72727C136.996 7.95722 137.172 7.25134 137.525 6.59129C137.886 5.93124 138.372 5.39954 138.98 5.00535C139.598 4.60199 140.268 4.39114 141 4.35447C139.88 4.2903 138.936 3.85027 138.16 3.00688C137.384 2.16348 136.996 1.16425 136.996 0C136.996 1.16425 136.607 2.16348 135.831 3.00688ZM31 23.3545C32.1114 23.2995 33.0551 22.8503 33.8313 22.0069C34.6075 21.1635 34.9956 20.1642 34.9956 19C34.9956 20.1642 35.3837 21.1635 36.1599 22.0069C36.9361 22.8503 37.8798 23.2903 39 23.3545C38.2679 23.3911 37.5976 23.602 36.9802 24.0053C36.3716 24.3995 35.8864 24.9312 35.5248 25.5913C35.172 26.2513 34.9956 26.9572 34.9956 27.7273C34.9956 26.563 34.6075 25.5546 33.8313 24.7112C33.0551 23.8587 32.1114 23.4095 31 23.3545ZM0 36.3545C1.11136 36.2995 2.05513 35.8503 2.83131 35.0069C3.6075 34.1635 3.99559 33.1642 3.99559 32C3.99559 33.1642 4.38368 34.1635 5.15987 35.0069C5.93605 35.8503 6.87982 36.2903 8 36.3545C7.26792 36.3911 6.59757 36.602 5.98015 37.0053C5.37155 37.3995 4.88644 37.9312 4.52481 38.5913C4.172 39.2513 3.99559 39.9572 3.99559 40.7273C3.99559 39.563 3.6075 38.5546 2.83131 37.7112C2.05513 36.8587 1.11136 36.4095 0 36.3545ZM56.8313 24.0069C56.0551 24.8503 55.1114 25.2995 54 25.3545C55.1114 25.4095 56.0551 25.8587 56.8313 26.7112C57.6075 27.5546 57.9956 28.563 57.9956 29.7273C57.9956 28.9572 58.172 28.2513 58.5248 27.5913C58.8864 26.9312 59.3716 26.3995 59.9802 26.0053C60.5976 25.602 61.2679 25.3911 62 25.3545C60.8798 25.2903 59.9361 24.8503 59.1599 24.0069C58.3837 23.1635 57.9956 22.1642 57.9956 21C57.9956 22.1642 57.6075 23.1635 56.8313 24.0069ZM81 25.3545C82.1114 25.2995 83.0551 24.8503 83.8313 24.0069C84.6075 23.1635 84.9956 22.1642 84.9956 21C84.9956 22.1642 85.3837 23.1635 86.1599 24.0069C86.9361 24.8503 87.8798 25.2903 89 25.3545C88.2679 25.3911 87.5976 25.602 86.9802 26.0053C86.3716 26.3995 85.8864 26.9312 85.5248 27.5913C85.172 28.2513 84.9956 28.9572 84.9956 29.7273C84.9956 28.563 84.6075 27.5546 83.8313 26.7112C83.0551 25.8587 82.1114 25.4095 81 25.3545ZM136 36.3545C137.111 36.2995 138.055 35.8503 138.831 35.0069C139.607 34.1635 139.996 33.1642 139.996 32C139.996 33.1642 140.384 34.1635 141.16 35.0069C141.936 35.8503 142.88 36.2903 144 36.3545C143.268 36.3911 142.598 36.602 141.98 37.0053C141.372 37.3995 140.886 37.9312 140.525 38.5913C140.172 39.2513 139.996 39.9572 139.996 40.7273C139.996 39.563 139.607 38.5546 138.831 37.7112C138.055 36.8587 137.111 36.4095 136 36.3545ZM101.831 49.0069C101.055 49.8503 100.111 50.2995 99 50.3545C100.111 50.4095 101.055 50.8587 101.831 51.7112C102.607 52.5546 102.996 53.563 102.996 54.7273C102.996 53.9572 103.172 53.2513 103.525 52.5913C103.886 51.9312 104.372 51.3995 104.98 51.0053C105.598 50.602 106.268 50.3911 107 50.3545C105.88 50.2903 104.936 49.8503 104.16 49.0069C103.384 48.1635 102.996 47.1642 102.996 46C102.996 47.1642 102.607 48.1635 101.831 49.0069Z"
-                fill="currentColor"></path>
-            </svg>
-          </div>
-          <div class="theme-switch__circle-container">
-            <div class="theme-switch__sun-moon-container">
-              <div class="theme-switch__moon">
-                <div class="theme-switch__spot"></div>
-                <div class="theme-switch__spot"></div>
-                <div class="theme-switch__spot"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </label>
-    </div>
-    </div>
-  </nav>
-  <!--fim da navbar-->
-  <!-- inicio do carrossel -->
-  <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true"
-        aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active c-item">
-        <img id="sld1" src="img/hme/frente.jpeg" class="d-block w-100 c-img zoom-effect"
-          alt="Boas Vindas a Marieta Cals">
-        <div class="carousel-caption top-1 mt-0">
-          <h1 style="color: #ffffff;" id="low"><span class="sc_item_title sc_title_title sc_align_center sc_item_title_style_default">Seja bem-vindo a
-            Escola Marieta Cals</span></h1>
-        </div>
-      </div>
-      <div class="carousel-item c-item">
-        <img src="img/hme/quadra-alunos.jpeg" class="d-block w-100 c-img zoom-effect" alt="Slide 2" id="sld2">
-        <div class="carousel-caption top-1 mt-0">
-        </div>
-      </div>
-      <div class="carousel-item c-item">
-        <img id="sld2" src="img/hme/patio.jpeg" class="d-block w-100 c-img zoom-effect" alt="Slide 3">
-        <div class="carousel-caption top-1 mt-0">
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  <!-- fim do carrosel -->
-  <br>
-  <!-- inicio da unidade de introdução -->
-  <div class="unidade-introducao">
-    <div class="sc_content_container">
-      <div id="sc_title_1459963616" class="sc_title sc_title_default">
-        <br>
-        <h6 class="sc_item_subtitle sc_title_subtitle sc_align_center sc_item_title_style_default">Olá, tudo bem!</h6>
-        <h1><strong class="sc_item_title sc_title_title sc_align_center sc_item_title_style_default">Seja bem-vindo a
-            Escola Marieta Cals</strong></h1>
-        <div class="sc_item_descr sc_title_descr sc_align_center">
-          <p>Nossa escola fornece uma área de aprendizado para estudantes desde o 7 ao 9 ano da rede municipal de ensino do municipio de Milagres.</p>
-        </div>
-      </div>
-    </div>
-    <br>
-  </div>
-  <!-- fim da introdução -->
-  <!-- inicio da unidade de cursos -->
-  <div class="unidade-cursos" data-aos="fade-up">
-    <div id="unidade-cursos"></div>
-    <br>
-    <i class="fa fa-graduation-cap" style="font-size:48px" id="cap"></i>
-    <strong>
-      <h2> Eletivas oferecidas</h2>
-    </strong>
-    <h5>Eletivas de Esporte</h5>
-    <p>
-      <a id="und-txt" href="volei.html">Voleibol</a><br>
-      <a id="und-txt" href="">Handbol</a><br>
-    </p>
-    <h5>Eletivas Variadas</h5>
-    <p>
-      <a id="und-txt" href="">Música</a><br>
-      <a id="und-txt" href="">Cultura Make</a><br>
-      <a id="und-txt" href="">Residuos Sólidos</a><br>
-    </p>
-    <br>
-  </div>
-  <div id="m-tec"></div>
-  <!-- fim da unidade de cursos -->
-  <div class="space"></div>
-  <!--icones-->
-  <div id="container01" class="container" style="align-items: center; text-align: center;">
-    <div class="row">
-      <div class="col-lg">
-        <a href="volei.html"><img src="img/hme/volei.png" width="140" height="140" alt="icone de volei"
-            title="Voleibol"></a>
-        <h2 class="fw-normal">Voleibol</h2>
-      </div>
-      <br>
-      <div class="col-lg">
-        <a href=""><img src="img/hme/handbol.png" width="140" height="140" alt="icone de handbol"
-            title="Handbol"></a>
-        <h2 class="fw-normal">Handbol</h2>
-      </div>
-      <br>
-      <div class="col-lg">
-        <a href=""><img src="img/hme/musica.png" width="140" height="140"
-            alt="icone de Música" title="Curso de Música"></a>
-        <h2 class="fw-normal">Música</h2>
-      </div>
-      <br>
-      <div class="col-lg">
-        <a href=""><img src="img/hme/make.png" width="140" height="140"
-            alt="icone de cultura make" title="cultura make"></a>
-        <h2 class="fw-normal">Cultura Maker</h2>
-      </div>
-      <br>
-      <div class="col-lg">
-        <a href=""><img src="img/hme/residuos.png" width="140" height="140" alt="icone de residuos solidos"
-            title="residuos solidos"></a>
-        <h2 class="fw-normal">Resíduos Sólidos</h2>
-      </div>
-      <br>
-    </div>
-  </div>
-  <!--fim dos icones-->
-  <div class="space"></div>
-  <!-- unidade de introdução ao m-tec -->
-  <div id="m-tec-intro" class="container" data-aos="fade-up">
-    <img id="introgirl" width="880" height="700" src="img/hme/img-girl-01.jpeg" class="img-fluid text-justify">
-    <div class="ioa" data-aos="fade-left">
-      <h4>
-        Ensino Fundamental (Anos Finais)
-      </h4>
-      <p id="textgirl" data-aos="fade-left">
-        O Ensino Fundamental dos Anos Finais na escola Marieta Cals é um período crucial na jornada educacional de nossos estudantes. É o momento em que eles estão se preparando para a transição para o Ensino Médio e, mais importante ainda, para a vida adulta. Nossa instituição se dedica a oferecer um ambiente de aprendizado estimulante e acolhedor, garantindo que cada aluno tenha as bases sólidas necessárias para enfrentar os desafios acadêmicos e pessoais que o futuro reserva.
-        Nos Anos Finais do Ensino Fundamental, priorizamos o fortalecimento das bases educacionais dos estudantes. Nossos educadores dedicados e experientes trabalham para proporcionar a cada aluno uma educação de alta qualidade, enfatizando o desenvolvimento de competências essenciais em áreas como matemática, ciências, língua portuguesa, história, geografia e mais. Além disso, incentivamos a participação ativa dos estudantes em atividades extracurriculares, como esportes, artes e projetos comunitários, para promover o desenvolvimento integral.
-        Estamos comprometidos em proporcionar uma educação sólida que ajude nossos alunos a se tornarem cidadãos informados, responsáveis e preparados para enfrentar os desafios futuros com confiança e determinação.
-      </p>
-    </div>
-  </div>
-  <!-- fim da introdução ao m-tec -->
-  <br>
-  <br>
-  <!-- unidade de tributos -->
-  <div class="cards" data-aos="fade-up">
-    <br>
-    <h2>
-      <div class="tb" data-aos="fade-right">
-        <p id="char01"> Direção Escolar
-      </div>
-    </h2>
-    <br>
-    <main class="mt-5 mb-5">
-      <div class="container">
-        <div class="row">
-          <section class="col-sm-4">
-            <article class="card" data-aos="fade-left">
-              <a><img src="img/dir/vaninha.jpeg"
-                  class="card-img-top" alt="Vaninha Santana" title="Vaninha Santana"></a>
-              <div class="card-body">
-                <h5 class="card-title">Vaninha Santana - Diretora</h5>
-                <p class="card-text">Vaninha Santana é uma diretora escolar notável e inspiradora que deixou uma marca indelével 
-                  na comunidade educacional. Com uma paixão ardente pela aprendizagem e um compromisso inabalável com o sucesso 
-                  dos alunos, Vaninha é muito mais do que uma simples administradora; ela é uma líder que cativa corações e molda 
-                  o futuro.</p>
-              </div>
-            </article>
-          </section>
-          <section class="col-sm-4">
-            <article class="card" data-aos="fade-down">
-              <a><img
-                  src="img/dir/nem.jpeg" class="card-img-top" alt="Francisco Nem" title="Francisco Nem"></a>
-              <div class="card-body">
-                <h5 class="card-title"> Francisco Nem - Coordenador</h5>
-                <p class="card-text">Francisco Nem é um coordenador escolar notável que desempenha um papel essencial 
-                  na promoção da excelência educacional em sua instituição de ensino. Com sua vasta experiência e paixão 
-                  pela educação, ele é amplamente respeitado e admirado por sua dedicação à comunidade escolar.</p>
-              </div>
-            </article>
-          </section>
-          <section class="col-sm-4">
-            <article class="card" data-aos="fade-right">
-              <a><img src="img/dir/sergineide.jpeg" class="card-img-top" alt="Francisco Nem" title="Francisco Nem"></a>
-              <div class="card-body">
-                <h5 class="card-title">Sergineide Caldas - Coordenadora</h5>
-                <p class="card-text">Sergineide é uma coordenadora pedagógica excepcional, cujo comprometimento com a qualidade 
-                  da educação e o desenvolvimento dos alunos é verdadeiramente inspirador. Sua atuação na escola transcende o papel 
-                  administrativo e a coloca como uma figura fundamental na promoção do sucesso acadêmico e pessoal de todos os 
-                  estudantes.
+    <div class="container">
+        <div class="content">
+          <p><b>Tempo até o lançamento</b></p>
+          <h1>Será lançado em <span>Breve!</span></h1>
+          <div class="launch-time">
+            <div>
+                <p id="days">00
+                    <span>Days</span>
                 </p>
-              </div>
-            </article>
-          </section>
-        </div>
-      </div>
-    </main>
-    <br>
-  </div>
-  <!-- fim da unidade de tributos -->
-  <br>
-  <!-- introdução aos cursos técnicos -->
-  <!-- fim da introdução aos cursos técnicos -->
-  <div class="space"></div>
-  <!-- introdução aos cursos m-tec  -->
-    <!-- fim da introdução  dos cursos m-tec  -->
-    <!-- background all class  -->
-    <!-- background final class  -->
-    <!-- inicio footer  -->
-    <footer style="list-style-type: none;" class="site-footer text-center "
-      data-gtm-vis-recent-on-screen-36284894_45="14882" data-gtm-vis-first-on-screen-36284894_45="14882"
-      data-gtm-vis-total-visible-time-36284894_45="100" data-gtm-vis-has-fired-36284894_45="1">
-      <div class="l-container site-footer__container">
-        <div class="site-footer__row site-footer__row--navigation">
-          <div class="site-footer__menu-col">
-            <h2 class="site-footer__menu-heading">ㅤㅤAluno</h2>
-            <nav class="site-footer__nav" aria-label="Security &amp; Brand Navigation">
-              <ul type="none" class="site-footer__nav-list">
-                <li class="footer-one__item"><a href="" class="footer-one__action"
-                    data-attribute="trademark-notice">Normas &amp;
-                    Convivência</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="site-footer__menu-col">
-            <h2 class="site-footer__menu-heading">ㅤㅤWebsite</h2>
-            <nav class="site-footer__nav" aria-label="Website Navigation">
-              <ul type="none" class="site-footer__nav-list">
-                <li class="footer-two__item"><a href="#unidade-cursos" class="footer-two__action"
-                    data-attribute="accessibility">Eletivas</a></li>
-                <li class="footer-two__item"><a href="#m-tec" class="footer-two__action"
-                    data-attribute="digital-accessibility">Informações</a></li>
-                <li class="footer-two__item"><a href="" class="footer-two__action"
-                    data-attribute="9826">História</a></li>
-              </ul>
-            </nav>
-          </div>
-          <div class="site-footer__menu-col">
-            <h2 class="site-footer__menu-heading">ㅤㅤContato</h2>
-            <nav class="site-footer__nav" aria-label="Get In Touch Navigation">
-              <ul type="none" class="site-footer__nav-list">
-                <li class="footer-three__item"><a href="contact.html" class="footer-three__action"
-                    data-attribute="contact">Telefone &amp; Fax</a></li>
-                <li class="footer-three__item"><a href="contact.html" class="footer-three__action"
-                    data-attribute="maps-directions">Mapa &amp; Direção</a></li>
-                <li class="footer-three__item"><a href="contact.html" class="footer-three__action"
-                    data-attribute="jobs">Emails</a></li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-        <div class="site-footer__row site-footer__row--secondary">
-          <div class="site-footer__copyright">
-            <p class="copy" id="copy" style="color: white;">© 2023&nbsp;Escola Marieta Cals</p>
-          </div>
-          <div class="site-footer__logo mx-auto ">
-            <a href="https://www.milagres.ce.gov.br/">ㅤㅤ
-              <img src="/img/nav/milas-logo.png" alt="Milagres">
-            </a>
-          </div>
-          <div class="site-footer__social mx-auto ">
-            <div class="social-follow">
-              <ul type="none" class="social-follow__list">
-                <li class="social-follow__item social-follow__item--facebook">
-                  <a href="https://www.instagram.com/equipemarietacals/" class="social-follow__anchor" rel="me noopener"
-                    title="Instagram" target="_blank">
-                    <img src="img/nav/pngwing.com.png" style="height: 50px;" alt="Instagram">
-                  </a>ㅤ
-                </li>
-              </ul>
+            </div>
+            <div>
+                <p id="hours">00
+                    <span>Hours</span>
+                </p>
+            </div>
+            <div>
+                <p id="minutes">00
+                    <span>Minutes</span>
+                </p>
+            </div>
+            <div>
+                <p id="seconds">00
+                    <span>Seconds</span>
+                </p>
             </div>
           </div>
         </div>
-      </div>
-    </footer>
-    <!-- final footer  -->
-    <!-- seção de scripts  -->
-    <script src="js/aos.js"></script>
+    </div>
     <script>
-      AOS.init({
-        duration: 2000,
-      }
-      );
+        var countDownTime = new Date("Dec 15, 2023 19:00:00").getTime();
+        var x = setInterval(function(){
+            var now = new Date().getTime();
+            var distance = countDownTime - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+
+            if(distance < 0){
+                clearInterval(x);
+                document.getElementById("days").innerHTML = "00";
+                document.getElementById("hours").innerHTML = "00";
+                document.getElementById("minutes").innerHTML = "00";
+                document.getElementById("seconds").innerHTML = "00";
+            }
+            
+        },1000);
     </script>
-    <a href="#" class="to-top">
-      <i class="fa fa-chevron-up" style="font-size:25px;color:rgb(0, 0, 0)"></i></a>
-    <script src="js/main.js"></script>
-    <!-- final da seção de scripts -->
 </body>
 </html>

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+  }
+
+  .container{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(img/hme/count.jpeg);
+  background-position: center;
+  background-size: cover;
+  padding: 0 8%;
+  position: relative;
+}
+.content{
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  color: #ffffff;
+}
+.content h1{
+  font-size: 64px;
+  font-weight: 600;
+}
+.content p{
+  color: rgb(255, 255, 255);
+}
+.content h1 span{ 
+color: #ff3737;
+}
+.launch-time{
+  display: flex;
+}
+
+.launch-time div{
+  flex-basis: 100px;
+}
+.launch-time div p{
+  font-size: 40px;
+  margin-bottom: -14px;
+  color: #ff0000;
+}
+.launch-time div span{
+  font-size: 40px;
+  margin-bottom: -14px;
+}
