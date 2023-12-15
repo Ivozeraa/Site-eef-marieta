@@ -24,8 +24,10 @@
   font-size: 64px;
   font-weight: 600;
 }
-.content p{
+.content h2 span{
   color: rgb(255, 255, 255);
+  background-color: #ff3737;
+  border:#ff3737
 }
 .content h1 span{ 
 color: #ff3737;
@@ -44,6 +46,7 @@ color: #ff3737;
   background-blend-mode: luminosity;
   border-radius: 10%;
   background-color: #ff3737;
+  box-shadow: 2px 3px rgb(158, 5, 5);
   color: #ffffff;
 }
 .launch-time div span{
