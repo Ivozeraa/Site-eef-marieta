@@ -40,7 +40,11 @@ color: #ff3737;
 .launch-time div p{
   font-size: 40px;
   margin-bottom: -14px;
-  color: #ff0000;
+  text-align: center;
+  background-blend-mode: luminosity;
+  border-radius: 10%;
+  background-color: #ff3737;
+  color: #ffffff;
 }
 .launch-time div span{
   font-size: 40px;
